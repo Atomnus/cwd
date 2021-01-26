@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-<h3>A demonstration of how to access a BODY element</h3>
-
-<p>Click the button to set the background color of the document to red.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
+  <html>
+   <head>
+    <title>CWD Info Home</title>
+    <link rel="stylesheet" href="index.css">
+   </head>
+  <body>
+  <h2>CWD Info</h2>
 <script>
-function myFunction() {
-  var x = document.getElementsByTagName("BODY")[0];
-  x.style.backgroundColor = "red";
+    function myFunction() {
+      var x = document.createElement("BODY");
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
 </script>
-
-</body>
-</html>
+  <a href="index.html">Home</a>
+<p>More information will be added soon.</p>
+   </body>
+  </html> 
