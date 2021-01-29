@@ -11,3 +11,9 @@ body {
 .adjust-line-height {
   line-height: 1em;
 }
+
+<style type="text/css">
+<!--
+ .tab { margin-left: 40px; }
+-->
+</style>
