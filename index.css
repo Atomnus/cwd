@@ -12,6 +12,10 @@ div.b {
   line-height: 0.5;
 }
 
+div.c {
+  margin: 20px;
+}
+
 .dark-mode {
   background-color: #151515;
   color: white;
