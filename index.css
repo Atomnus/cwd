@@ -3,6 +3,10 @@ body {
   color: black;
 }
 
+body {
+  line-height: 1.6;
+}
+
 .dark-mode {
   background-color: #151515;
   color: white;
