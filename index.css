@@ -7,6 +7,10 @@ div.a {
   line-height: 1.6;
 }
 
+div.b {
+  line-height: 0.5;
+}
+
 div.c {
   margin: 15px;
 }
