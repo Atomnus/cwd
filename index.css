@@ -8,12 +8,8 @@ div.a {
   margin: 35px;
 }
 
-div.b {
-  line-height: 0.5;
-}
-
 div.c {
-  margin: 20px;
+  margin: 10px;
 }
 
 .dark-mode {
