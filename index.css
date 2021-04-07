@@ -5,6 +5,11 @@ body {
 
 div.a {
   line-height: 1.6;
+  margin: 35px;
+}
+
+div.b {
+  line-height: 0.5;
 }
 
 .dark-mode {
