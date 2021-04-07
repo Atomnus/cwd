@@ -5,11 +5,10 @@ body {
 
 div.a {
   line-height: 1.6;
-  margin: 35px;
 }
 
 div.c {
-  margin: 10px;
+  margin: 15px;
 }
 
 .dark-mode {
