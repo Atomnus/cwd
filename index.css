@@ -19,6 +19,10 @@ div.d {
   line-height: 0.1;
 }
 
+div.e {
+  margin:2px;
+}
+
 .dark-mode {
   background-color: #151515;
   color: white;
