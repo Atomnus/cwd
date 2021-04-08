@@ -83,14 +83,33 @@ function closeNav() {
 }
 </script>
     <br>
-  <button onclick="myFunction()">Toggle Dark Mode</button>
-<script>
-    function myFunction() {
-      var x = document.createElement("BODY");
-  var element = document.body;
-  element.classList.toggle("dark-mode");
+<main id="main">
+  <p>Toggle dark mode </p>
+  <label class="switch">
+    <input type="checkbox" onclick="darkLight()" id="checkBox" >
+    <span class="slider"></span>
+  </label>
+</main>
+ <script>
+$('#main').toggleClass(localStorage.toggled);
+
+function darkLight() {
+  if (localStorage.toggled != 'dark') {
+    $('#main, p').toggleClass('dark', true);
+    localStorage.toggled = "dark";
+     
+  } else {
+    $('#main, p').toggleClass('dark', false);
+    localStorage.toggled = "";
+  }
 }
-</script>
+
+if ($('main').hasClass('dark')) {
+   $( '#checkBox' ).prop( "checked", true )
+} else {
+  $( '#checkBox' ).prop( "checked", false )
+}
+  </script>
       </div>
    <br> 
    <br> 
