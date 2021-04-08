@@ -90,23 +90,6 @@ function closeNav() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
-
-var save_button = document.getElementById('Save')
-save_button.onclick = saveData;
-
-function saveData(){
-  var input = document.getElementById("saveServer");
-  localStorage.setItem("server", input.value);
-  var storedValue = localStorage.getItem("server");
-}  
-  
-if(localStorage.getItem('server') == 'input.value') {
-    var element = document.body;
-  element.classList.toggle("dark-mode");
-} else {
-    var element = document.body;
-  element.classList.toggle("light-mode"); 
-}
 </script>
       </div>
    <br> 
