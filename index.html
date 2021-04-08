@@ -83,45 +83,14 @@ function closeNav() {
 }
 </script>
     <br>
-  <script>
-class DarkMode extends React.Component {
-  state = {
-    setClass: false
-  };
-  handleChange = () => {
-    this.setState({
-      setClass: !this.state.setClass
-    });
-    localStorage.setItem("Mode", !this.state.setClass);
-    let toggle = localStorage.getItem("Mode");
-    console.log(toggle);
-  };
-  render() {
-    return (
-      <div className={this.state.setClass ? "dark-mode" : "light-mode"}>
-        <main>
-          <nav>Toggle Goes Here</nav>
-          <button onClick={this.handleChange}>Toggle Dark Mode</button>
-        </main>
-      </div>
-    );
-  }
+  <button onclick="myFunction()">Toggle Dark Mode</button>
+<script>
+    function myFunction() {
+      var x = document.createElement("BODY");
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }
-
-export default DarkMode;
-...
-
-componentDidMount() => {
-    const mode = localStorage.getItem("dark-mode"); // "light-mode" or "dark-mode"
-    this.setState({setClass: "dark-mode"});
-}
-
-...
-return (
-    <div className={this.state.setClass}>
-    ...
-)
-  </script>
+</script>
       </div>
    <br> 
    <br> 
