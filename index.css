@@ -29,12 +29,12 @@ div.f {
   line-height: 0.6
 }
 
-.dark-mode {
+.dark {
   background-color: #262629;
   color: white;
 }
 
-.light-mode {
+.light {
   background-color: white;
   color:black;
 }
