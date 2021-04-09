@@ -34,6 +34,10 @@ div.g {
   padding-left: 20px;
 }
 
+div.h {
+  border: 1px solid black;
+}
+
 .dark-mode {
   background-color: #262629;
   color: white;
