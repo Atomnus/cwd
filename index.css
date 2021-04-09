@@ -29,6 +29,10 @@ div.f {
   line-height: 0.6
 }
 
+div.g {
+  padding-top: 25px;
+  padding-left: 8px;
+
 .dark-mode {
   background-color: #262629;
   color: white;
