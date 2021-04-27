@@ -30,9 +30,8 @@ div.f {
 }
 
 div.g {
-    position: absolute;
-    top: 20px;
-    left: 17px;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 
 div.h {
